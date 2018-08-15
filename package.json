@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel -d docs index.html --open",
-    "build": "rm -fr docs && parcel build -d docs index.html",
+    "build": "rm -fr docs && parcel build -d docs index.html --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.3",
-    "parcel": "^1.9.7"
+    "parcel": "^1.9.7",
+    "parcel-plugin-inlinesvg": "0.0.14"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
