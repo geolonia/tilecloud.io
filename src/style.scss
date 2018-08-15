@@ -41,6 +41,11 @@ img
   {
   }
 
+  h3
+  {
+    font-weight: normal;
+  }
+
   .contents
   {
     display: flex;
@@ -50,14 +55,14 @@ img
 
   .contents > div
   {
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
   }
 
   .contents svg
   {
     fill: #ffffff;
-    width: 128px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 128px;
   }
 }
