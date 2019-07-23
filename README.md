@@ -1,8 +1,8 @@
-# tilecloud.io
+# geolonia.com
 
-The teaser site for tilecloud.io.
+The teaser site for geolonia.com.
 
-https://tilecloud.io/
+https://geolonia.com/
 
 ```
 $ npm install
