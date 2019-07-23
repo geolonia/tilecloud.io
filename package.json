@@ -1,23 +1,34 @@
 {
   "name": "tilecloud.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "The teaser site for tilecloud.io.",
   "main": "index.js",
   "scripts": {
     "start": "parcel -d docs index.html --open",
-    "build": "rm -fr docs && parcel build -d docs index.html --no-cache && echo 'tilecloud.io' > docs/CNAME ",
+    "build": "rm -fr docs && parcel build -d docs index.html --no-cache --no-minify && echo 'tilecloud.io' > docs/CNAME ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.9.3",
-    "parcel": "^1.9.7",
-    "parcel-plugin-inlinesvg": "0.0.14"
+    "node-sass": "^4.12.0",
+    "parcel": "^1.12.3",
+    "parcel-plugin-inlinesvg": "^0.1.1"
   },
   "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
     "popper": "^1.0.1"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilecloud/tilecloud.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tilecloud/tilecloud.io/issues"
+  },
+  "homepage": "https://tilecloud.io"
 }
